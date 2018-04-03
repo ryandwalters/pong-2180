@@ -11,14 +11,23 @@ h1{
 }
 
 #rainbow {
-    background-image:linear-gradient(270deg, #4b2466, #c6e611, #21bd26, #bd4b15);
-    animation: AnimationName 4s ease infinite
+    background: linear-gradient(270deg, #0f8a6b, #28a70c, #cad70d, #d73b0d, #d70dc6);
+    background-size: 1000% 1000%;
+    animation: AnimationName 11s ease infinite;
+    /*font-family: 'Bungee Inline', cursive;*/
+    font-family: 'Monoton', cursive;
 }
 
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 96% 0%
+    }
+    50% {
+        background-position: 5% 100%
+    }
+    100% {
+        background-position: 96% 0%
+    }
 }
 
 #title {
