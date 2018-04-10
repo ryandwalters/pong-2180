@@ -1,16 +1,28 @@
 {
   "name": "pong-2180",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0",
-    "react-scripts": "1.1.1"
-  },
+  "version": "1.0.0",
+  "description": "App that lets you play Pong over long distances in real-time.",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryandwalters/pong-2180.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "MERN",
+    "Stack",
+    "Full",
+    "Stack",
+    "App"
+  ],
+  "author": "dscherer21 richbu ryandwalters tmoling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryandwalters/pong-2180/issues"
+  },
+  "homepage": "https://github.com/ryandwalters/pong-2180#readme"
 }

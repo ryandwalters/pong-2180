@@ -5,7 +5,8 @@ const Home = () =>
   <div>
     <div id='title' className='text-center'>
       <h1><span id='rainbow'>PONG 2180</span></h1>
-      <h2>Click Here to Start!</h2>
+      <hr/>
+      <a href='#'><h2>Click Here to Start!</h2></a>
     </div>
   </div>;
 
