@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import TitlePage from './components/titlePage/';
 import Header from './components/header/';
 import Footer from './components/footer/';
-import Main1 from './components/main1/';
+import Router from './components/routes/';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 
 /*handleClick(event) => {
@@ -30,11 +29,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        
-          <Header/>
-          <TitlePage/>
-          <Main1/>
+
+        <Header/>
+
+        <Routes/>
+
         <Footer/>
+
       </div>
     );
   }
