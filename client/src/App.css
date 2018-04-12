@@ -2,4 +2,12 @@
   box-sizing: border-box;
 }
 
+#body {
+  display: none;
+}
+
+#title {
+  display: initial;
+}
+
 
