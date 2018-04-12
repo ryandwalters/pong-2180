@@ -3,6 +3,7 @@ import './Main1.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BallStatsContainer from './../ballStats';
 import BallHitContainer from './../ballHit';
+import ScoreBoardContainer from './../scoreBoard';
 
 const Main1 = () => {
     return (
@@ -24,9 +25,9 @@ const Main1 = () => {
                         </div>
                     </div> */}
 
-
+<ScoreBoardContainer/>
                 {/* scoreboar and possible twitter and text buttons */}
-                <div className="col-xs-3" >
+                {/* <div className="col-xs-3" >
                     <div className="panel panel-default">
                         <div className="panel-heading">
                             <h3 className="panel-title">Scoreboard</h3>
@@ -35,19 +36,10 @@ const Main1 = () => {
                             Panel content
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 <BallHitContainer/>
-                {/* <div className="col-xs-12 b" >
-                    <div className="panel panel-default">
-                        <div className="panel-heading">
-                            <h3 className="panel-title">HIT THE BALL!</h3>
-                        </div>
-                        <div className="panel-body">
-                            <button>hit the ball!</button>
-                        </div>
-                    </div>
-                </div> */}
+
             </div>
         </div>
     )
