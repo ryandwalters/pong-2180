@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const Header = () => {
     return(
-        <div className='container'>
+        <header className='container'>
             Header
-        </div>
+        </header>
     )
 }
 

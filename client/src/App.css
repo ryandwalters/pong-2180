@@ -6,12 +6,5 @@ body {
   background-image: url('./images/matrixgridfloor.png');
 }
 
-#body {
-  display: none;
-}
-
-#title {
-  display: initial;
-}
 
 

@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import TitlePage from './components/titlePage/';
 import Header from './components/header/';
+import Footer from './components/footer/';
+import Main1 from './components/main1/';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 
 /*handleClick(event) => {
@@ -28,65 +30,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <TitlePage/>
-        <div id='body'>
+        
           <Header/>
-          <main className="container">
-
-          <div className="row">
-            {/* Ball Arrival Time and any other stats we want */}
-            <div className="col-xs-3" >
-              <div className="panel panel-default">
-                <div className="panel-heading">
-                  <h3 className="panel-title">Arrival Time</h3>
-                </div>
-                <div className="panel-body">
-                  Panel content
-                  </div>
-              </div>
-
-            </div>
-
-            {/* <MapComponent/> */}
-            {/* Map display */}
-            {/* <div className="col-xs-6" >
-                <div className="panel panel-default">
-                  <div className="panel-heading">
-                    <h3 className="panel-title">Map</h3>
-                  </div>
-                  <div className="panel-body">
-                    Panel content
-                  </div>
-                </div>
-              </div> */}
-
-
-            {/* scoreboar and possible twitter and text buttons */}
-            <div className="col-xs-3" >
-              <div className="panel panel-default">
-                <div className="panel-heading">
-                  <h3 className="panel-title">Scoreboard</h3>
-                </div>
-                <div className="panel-body">
-                  Panel content
-                  </div>
-              </div>
-            </div>
-            
-            <div className="col-xs-12 b" >
-              <div className="panel panel-default">
-                <div className="panel-heading">
-                  <h3 className="panel-title">HIT THE BALL!</h3>
-                </div>
-                <div className="panel-body">
-                  <button>hit the ball!</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </main>
-        <footer>footer</footer>
-        </div>
+          <TitlePage/>
+          <Main1/>
+        <Footer/>
       </div>
     );
   }
