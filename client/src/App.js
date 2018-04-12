@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 //import './App.css';  //RPB
 import Home from './components/titlePage/';  //RPB
-//import MapComponent from './components/mapPage/MapContainer';
-
+// import MapComponent from './components/mapPage/MapContainer';
+import BallStatsContainer from './components/ballStats/BallStatsContainer';
 const App = () => {
 
   // render() {
@@ -16,8 +16,10 @@ const App = () => {
       <main className="container">
 
         <div className="row">
+
+{/* <BallStatsContainer /> */}
           {/* Ball Arrival Time and any other stats we want */}
-          <div className="col-xs-3" >
+          {/* <div className="col-xs-3" >
             <div className="panel panel-default">
               <div className="panel-heading">
                 <h3 className="panel-title">Arrival Time</h3>
@@ -26,10 +28,9 @@ const App = () => {
                 Panel content
                 </div>
             </div>
+          </div> */}
 
-          </div>
-
-          {/* <MapComponent/> */}
+          {/* <MapComponent /> */}
           {/* Map display */}
           {/* <div className="col-xs-6" >
               <div className="panel panel-default">

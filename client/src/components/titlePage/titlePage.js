@@ -11,7 +11,7 @@ const Home = () => {
         <h1><span id='rainbow'>PONG 2180</span></h1>
         <hr />
         {/* <Router>
-          <Link href='#'><h2>Click Here to Start!</h2></Link>
+          <Link to='#'><h2>Click Here to Start!</h2></Link>
         </Router> */}
       </div>
     </div>
