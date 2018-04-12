@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/';
 import Footer from './components/footer/';
-import Router from './components/routes/';
+import Routes from './components/routes/';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 
 /*handleClick(event) => {

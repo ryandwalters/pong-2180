@@ -1,13 +1,15 @@
-import React, { Component } from "react";
-import './router.css';
-import TitlePage from './components/titlePage/';
-import Main1 from './components/main1/';
+import TitlePage from './../titlePage/';
+import Main1 from './../Main1/';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React, { Component } from "react";
+import './routes.css';
+
 
 const Routes = () => {
     return(
         <main className='container'>
-            <TitlePage/>
+            Hello
+            {/*<TitlePage/>*/}
             <Main1/>
         </main>
     )

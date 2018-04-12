@@ -1,22 +1,14 @@
 import React, { Component } from "react";
-import './main1.css';
+import './Main1.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import BallStatsContainer from './../ballStats';
 
 const Main1 = () => {
     return (
-        <main className='container'>
+        <div className='container'>
             <div className="row">
                 {/* Ball Arrival Time and any other stats we want */}
-                <div className="col-xs-3" >
-                    <div className="panel panel-default">
-                        <div className="panel-heading">
-                            <h3 className="panel-title">Arrival Time</h3>
-                        </div>
-                        <div className="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                </div>
+                <BallStatsContainer/>
 
                 {/* <MapComponent/> */}
                 {/* Map display */}
@@ -55,7 +47,7 @@ const Main1 = () => {
                     </div>
                 </div>
             </div>
-        </main>
+        </div>
     )
 }
 
