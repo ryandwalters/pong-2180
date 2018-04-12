@@ -3,50 +3,25 @@ import './Main1.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BallStatsContainer from './../ballStats';
 import MapComponent from './../mapPage/';
+import BallHitContainer from './../ballHit';
+import ScoreBoardContainer from './../scoreBoard';
 
 const Main1 = () => {
     return (
         <div className='container'>
             <div className="row">
                 {/* Ball Arrival Time and any other stats we want */}
-                <BallStatsContainer/>
-                <MapComponent/>
-                
+                <BallStatsContainer />
+
                 {/* Map display */}
-                {/* <div className="col-xs-6" >
-                        <div className="panel panel-default">
-                            <div className="panel-heading">
-                            <h3 className="panel-title">Map</h3>
-                            </div>
-                            <div className="panel-body">
-                            Panel content
-                            </div>
-                        </div>
-                    </div> */}
-
-
+                <MapComponent />
+                
                 {/* scoreboar and possible twitter and text buttons */}
-                <div className="col-xs-3" >
-                    <div className="panel panel-default">
-                        <div className="panel-heading">
-                            <h3 className="panel-title">Scoreboard</h3>
-                        </div>
-                        <div className="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                </div>
+                <ScoreBoardContainer />
 
-                <div className="col-xs-12 b" >
-                    <div className="panel panel-default">
-                        <div className="panel-heading">
-                            <h3 className="panel-title">HIT THE BALL!</h3>
-                        </div>
-                        <div className="panel-body">
-                            <button>hit the ball!</button>
-                        </div>
-                    </div>
-                </div>
+                {/*Ball Hit Button*/}
+                <BallHitContainer />
+
             </div>
         </div>
     )
