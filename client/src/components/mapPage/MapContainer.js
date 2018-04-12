@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import './mapPage.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-class MapContainer extends Component {
+class MapComponent extends Component {
 
     componentWillMount() {
         console.log("hello")

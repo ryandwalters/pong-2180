@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import './Main1.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BallStatsContainer from './../ballStats';
+import MapComponent from './../mapPage/';
 
 const Main1 = () => {
     return (
@@ -9,8 +10,8 @@ const Main1 = () => {
             <div className="row">
                 {/* Ball Arrival Time and any other stats we want */}
                 <BallStatsContainer/>
-
-                {/* <MapComponent/> */}
+                <MapComponent/>
+                
                 {/* Map display */}
                 {/* <div className="col-xs-6" >
                         <div className="panel panel-default">
