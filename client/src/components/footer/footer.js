@@ -4,9 +4,13 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const Footer = () => {
     return(
-        <div className='container'>
-            Footer
-        </div>
+        <footer className="container">
+            <div className="text-center navbar navbar-fixed-bottom">
+                <div className="container-fluid">
+                    <span className="bungeeFont">© 2018 Copyright</span>
+                </div>
+            </div>
+        </footer>
     )
 }
 

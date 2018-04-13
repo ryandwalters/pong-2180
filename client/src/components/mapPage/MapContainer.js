@@ -20,7 +20,7 @@ class MapComponent extends Component {
             < div className="col-xs-6" >
                 <div className="panel panel-default">
                     <div className="panel-heading">
-                        <h3 className="panel-title">Map</h3>
+                        <h3 className="panel-title bungeeFont">Map</h3>
                     </div>
                     <div className="panel-body">
                         Panel content

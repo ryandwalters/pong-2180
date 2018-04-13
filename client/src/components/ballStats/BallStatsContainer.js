@@ -16,7 +16,7 @@ class BallStatsContainer extends Component {
             <div className="col-xs-3" >
                 <div className="panel panel-default">
                     <div className="panel-heading">
-                        <h3 className="panel-title">Arrival Time</h3>
+                        <h3 className="panel-title bungeeFont">Arrival Time</h3>
                     </div>
                     <div className="panel-body">
                         Panel content

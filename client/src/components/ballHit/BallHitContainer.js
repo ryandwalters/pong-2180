@@ -15,7 +15,7 @@ class BallHitContainer extends Component {
         <div className="col-xs-12 b text-center" >
             <div className="panel panel-default">
                 <div className="panel-heading">
-                    <h3 className="panel-title">HIT THE BALL!</h3>
+                    <h3 className="panel-title bungeeFont">HIT THE BALL!</h3>
                 </div>
                 <div className="panel-body">
                     <button className='jumbotron btn rainbow monotonFont'>

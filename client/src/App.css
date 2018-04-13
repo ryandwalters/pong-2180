@@ -31,3 +31,7 @@ body {
       background-position: 96% 0%
   }
 }
+
+.panel {
+  background-color: rgba(250,250,250,.3);
+}
