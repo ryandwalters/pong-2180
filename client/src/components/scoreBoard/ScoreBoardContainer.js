@@ -17,7 +17,8 @@ class ScoreBoardContainer extends Component {
                     <h3 className="panel-title bungeeFont">Scoreboard</h3>
                 </div>
                 <div className="panel-body">
-                    Panel content
+                    <h4> Player One: </h4>
+                    <h4> Player Two: </h4>
                 </div>
             </div>
         </div>

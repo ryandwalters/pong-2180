@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BallStatsContainer from './../ballStats';
 import MapComponent from './../mapPage/';
 import BallHitContainer from './../ballHit';
+import BallHitContainer1 from './../ballHit1';
 import ScoreBoardContainer from './../scoreBoard';
 
 const Main1 = () => {
@@ -21,6 +22,8 @@ const Main1 = () => {
 
                 {/*Ball Hit Button*/}
                 <BallHitContainer />
+
+                <BallHitContainer1 />
 
             </div>
         </div>
