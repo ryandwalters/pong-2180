@@ -6,7 +6,7 @@ const TitlePage = () => {
   return(
   <div id='title'>
     <div className='text-center'>
-      <h1><span id='rainbow'>PONG 2180</span></h1>
+      <h1><span className='rainbow monotonFont'>PONG 2180</span></h1>
     </div>
   </div>
   )
