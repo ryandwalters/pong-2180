@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class BallHitContainer extends Component {
+class BallHitContainer1 extends Component {
     constructor (props) {
         super(props);
     }
@@ -19,7 +19,7 @@ class BallHitContainer extends Component {
                 </div>
                 <div className="panel-body">
                     <button className='jumbotron btn rainbow monotonFont'>
-                        <h2>Player One</h2>
+                        <h2>Player Two</h2>
                     </button>
                 </div>
             </div>
@@ -33,4 +33,4 @@ class BallHitContainer extends Component {
 }
 
 
-export default BallHitContainer;
+export default BallHitContainer1;
