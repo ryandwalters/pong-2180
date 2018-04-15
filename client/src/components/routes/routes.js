@@ -8,13 +8,15 @@ import './routes.css';
 
 const Routes = () => {
     return(
-        <Router>
-            <main className='container'>
+        
+        <main className='container'>
+            <Router>
                 {/*<TitlePage/>*/}
                 {/*<Main1/>*/}
                 <LoginPage/>
-            </main>
-        </Router>
+            </Router>
+        </main>
+        
     )
 }
 
