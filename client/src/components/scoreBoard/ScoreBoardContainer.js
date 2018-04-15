@@ -4,6 +4,8 @@ class ScoreBoardContainer extends Component {
     constructor (props) {
         super(props);
     }
+    
+
 
     componentWillMount() {
         console.log("ScoreBoard Container");

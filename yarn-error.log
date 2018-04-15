@@ -468,7 +468,7 @@ Trace:
   Exit code: 1
   Command: sh
   Arguments: -c node server.js
-  Directory: /Users/TroyMainFolder/Desktop/coding/pong-2180
+  Directory: /Users/ryanwalters/Documents/assignmentsandprojects/pong-2180
   Output:
   
       at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
