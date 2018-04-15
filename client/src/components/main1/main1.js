@@ -23,7 +23,7 @@ const Main1 = () => {
                 {/*Ball Hit Button*/}
                 <BallHitContainer />
 
-                <BallHitContainer1 />
+                {/* <BallHitContainer1 /> */}
 
             </div>
         </div>

@@ -12,8 +12,8 @@ const Routes = () => {
         <main className='container'>
             <Router>
                 {/*<TitlePage/>*/}
-                {/*<Main1/>*/}
-                <LoginPage/>
+                <Main1/>
+                {/* <LoginPage/> */}
             </Router>
         </main>
         
