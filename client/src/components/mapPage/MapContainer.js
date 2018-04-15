@@ -17,13 +17,13 @@ class MapComponent extends Component {
         return (
 
 
-            < div className="col-xs-6" >
+            < div className="col-xs-12" >
                 <div className="panel panel-default">
                     <div className="panel-heading">
                         <h3 className="panel-title bungeeFont">Map</h3>
                     </div>
-                    <div className="panel-body">
-                        Panel content
+                    <div className="panel-body" style={{padding: 0}}>
+                        <iframe src='https://richbu.github.io/Pong2180-map/'/>
                     </div>
                 </div>
             </div>

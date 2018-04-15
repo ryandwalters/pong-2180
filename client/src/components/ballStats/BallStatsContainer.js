@@ -13,7 +13,7 @@ class BallStatsContainer extends Component {
     render() {
         return (
 
-            <div className="col-xs-3" >
+            <div className="col-xs-12" >
                 <div className="panel panel-default">
                     <div className="panel-heading">
                         <h3 className="panel-title bungeeFont">Ball Stats</h3>

@@ -6,6 +6,14 @@ body {
   background-image: url('./images/matrixgridfloor.png');
 }
 
+hr{
+  opacity:0;
+}
+
+.jumbotron {
+  border: 2px solid white;
+}
+
 .bungeeFont {
   font-family: 'Bungee Inline', cursive;
 }
@@ -34,4 +42,5 @@ body {
 
 .panel {
   background-color: rgba(250,250,250,.3);
+  margin-top: 10px;
 }

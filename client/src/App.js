@@ -35,7 +35,8 @@ class App extends Component {
         <Header/>
 
         <Routes/>
-
+        <hr/>
+        <hr/>
         <Footer/>
 
       </div>

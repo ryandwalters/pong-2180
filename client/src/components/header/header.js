@@ -6,9 +6,8 @@ const Header = () => {
     return(
         <Router>
             <header className='container'>
-                <div className="row">
-                    <div className="col-xs-3"></div>
-                    <div className='col-xs-6'>
+                <div className="row text-center">
+                    <div className='col-xs-8'>
                         <h2 className='bungeeFont'>PONG 2180</h2>
                     </div>
                     <div className='col-xs-3'>              

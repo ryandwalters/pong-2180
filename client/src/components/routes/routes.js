@@ -1,5 +1,5 @@
 import TitlePage from './../titlePage/';
-import Main1 from './../main1/';
+import Main1 from './../Main1/';
 import LoginPage from './../loginPage/';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React, { Component } from "react";
@@ -12,8 +12,8 @@ const Routes = () => {
         <main className='container'>
             <Router>
                 {/*<TitlePage/>*/}
-                {/*<Main1/>*/}
-                <LoginPage/>
+                <Main1/>
+                {/*<LoginPage/>*/}
             </Router>
         </main>
         
