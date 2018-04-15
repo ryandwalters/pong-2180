@@ -11,9 +11,11 @@ const Routes = () => {
         
         <main className='container'>
             <Router>
-                {/*<TitlePage/>*/}
+                {/*<Route exact path='/' component={TitlePage}/>
+                <Route path='/main1' component={Main1}/>
+                <Route path='/login' component={LoginPage}/>*/}
+
                 <Main1/>
-                {/*<LoginPage/>*/}
             </Router>
         </main>
         

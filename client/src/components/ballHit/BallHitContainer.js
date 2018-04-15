@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class BallHitContainer extends Component {
-    constructor (props) {
+    constructor(props) {
         super(props);
     }
 
@@ -12,10 +12,10 @@ class BallHitContainer extends Component {
     render() {
         return (
 
-        <div>
-            <button className='jumbotron btn rainbow monotonFont'>Hit the Ball!</button>
-        </div>
-                        
+        <button className='jumbotron btn rainbow monotonFont'>
+            <h2>HIT THE BALL</h2>
+        </button>
+
         )
 
     }
