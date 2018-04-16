@@ -15,7 +15,7 @@ It’s simple. Player A will log into the app, confirm their location through **
 A successful return will be registered when the **HIT button** is pressed two seconds before or two seconds after the determined time. The circumference, weight and velocity of a typical ping pong ball has been calculated to make this experience identical to the real thing. As the clock counts down, get ready to hit the ball back because it will be coming at 70 mph. **The first player to score 10 points wins the game**.
 
 ## Let's Hear About The Features
-A multitude of technologies were used for this application, which are all run through two separate programs—-**the physics engine and the screen engine**. The physics engine utilizes X, Y, Z coordinates to determine the players’ longitude and latitude, the trajectory of the ping pong ball and controlling the ball’s speed-up factor. Additionally, the game uses the **link this haversine formula** and **link this kinematic equations** when taking into account Earth's circumference, longitude, latitude and azimuth, as well as the ball's acceleration and velocity.
+A multitude of technologies were used for this application, which are all run through two separate programs—-**the physics engine and the screen engine**. The physics engine utilizes X, Y, Z coordinates to determine the players’ longitude and latitude, the trajectory of the ping pong ball and controlling the ball’s speed-up factor. Additionally, the game uses the [haversine formula] and [kinematic equations] when taking into account Earth's circumference, longitude, latitude and azimuth, as well as the ball's acceleration and velocity.
 
 ***pic here of database diagram, or something related to physics/screen engine***
 ***img align="right" src="/images/readme/picgoeshere.png/jpg?raw=true"***
@@ -37,14 +37,23 @@ There are also plans to let people **choose their own emoji**, introducing **spe
 ## Get In Touch
 Email us at pong2180@gmail.com and let us hear from you. You can learn more about the design process, challenge us to a game, or hear the story of how a mis-typed email address determined the **PONG 2180** name.
 
-Check out our pong presentation at ***link***.
-See wireframes from early stages of the project here.
+Check out our pong presentation at [link].
+See [wireframes] from early stages of the project too.
 
 ## Collaborators
 * Rich Budek
 * Troy Moling
 * David Scherer-Odell
 * Ryan Walters
+
+[haversine formula]:https://en.wikipedia.org/wiki/Haversine_formula
+
+[kinematic equations]:https://en.wikipedia.org/wiki/Kinematics_equations
+
+[wireframes]:
+
+[link]:
+
 
 
 
