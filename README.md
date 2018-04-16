@@ -61,7 +61,7 @@ And, of course, play the game yourself and see it in action [here].
 
 [link]:https://docs.google.com/presentation/d/1cnIxrhe-o-XBPAQjk8mcZDEyiIK_g86yqckuEgQ19sY/edit?usp=sharing
 
-[wireframes]:
+[wireframes]:https://github.com/ryandwalters/pong-2180/tree/master/client/public/wireframes
 
 [here]:
 
