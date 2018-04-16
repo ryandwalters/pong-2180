@@ -1,6 +1,6 @@
 
 h1{
-    font-size: 120px;
+    font-size: 90px;
     color: black;
     background-image: transparent;
 }
@@ -9,7 +9,5 @@ hr {
     opacity: 0;
 }
 
-#title {
-    margin: 250px;
-}
+
 

@@ -13,7 +13,7 @@ const Gamestart = () => {
                     {/*Player 1 Form*/}
                     <form id='player1' className="navbar-form navbar-left" role="search">
                         <div className="form-group">
-                            <label for='Addrress Player 1'>Adress Player 1</label>
+                            <label htmlFor='player1'>Adress Player 1</label>
                             <input type="address" className="form-control" placeholder="Your Location"/>
                         </div>
                             <button type="submit" className="btn btn-primary">Submit</button>
@@ -24,7 +24,7 @@ const Gamestart = () => {
                     {/*Player 2 Form*/}
                     <form id='player2' className="navbar-form navbar-left" role="search">
                         <div className="form-group">
-                            <label for='Addrress Player 2'>Adress Player 2</label>
+                            <label htmlFor='player2'>Adress Player 2</label>
                             <input type="address" className="form-control" placeholder="Your Location"/>
                         </div>
                             <button type="submit" className="btn btn-primary">Submit</button>
@@ -37,7 +37,7 @@ const Gamestart = () => {
                     <h2 className='bungeeFont'>Choose Your Ball!</h2>
                 </div>
                 <div className='panel-body'>
-                    <ul>
+                    <ul className='bungeeFont'>
                         <li>
                             <label for='checkbox'>Bowling Ball</label>
                             <input type='checkbox' id='bowlingball'/>
@@ -129,7 +129,7 @@ const Gamestart = () => {
             <hr/>
             <div className='row'>
                 {/*Start Game Button*/}
-                <button classname='btn'>
+                <button className='btn'>
                     <h2 className='jumbotron rainbow monotonFont'>Start Game!</h2>
                 </button>
             </div>

@@ -4,10 +4,15 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const TitlePage = () => {
   return(
-  <div id='title'>
-    <div className='text-center'>
-      <h1><span className='rainbow monotonFont'>PONG 2180</span></h1>
-    </div>
+  <div id='title' className='text-center'>
+      <hr/>
+      <hr/>
+      <hr/>
+      <hr/>
+      <hr/>
+      <hr/>
+      <h1><span className='rainbow monotonFont'>PONG</span></h1>
+      <h1><span className='rainbow monotonFont'>2180</span></h1>
   </div>
   )
 }
