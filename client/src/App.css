@@ -14,6 +14,14 @@ button {
   padding: 0;
 }
 
+Link:hover {
+  text-decoration: none;
+}
+
+Link {
+  color: inherit;
+}
+
 .jumbotron {
   border: 2px solid white;
   margin: 0;
