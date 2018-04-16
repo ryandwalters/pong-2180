@@ -62,7 +62,7 @@ And, of course, play the game yourself and see it in action [here].
 
 [wireframes]:https://github.com/ryandwalters/pong-2180/tree/master/client/public/wireframes
 
-[here]:
+[here]:https://pong-2180.herokuapp.com/
 
 
 
