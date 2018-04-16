@@ -3,8 +3,9 @@
 ## Table Tennis Is Being Revolutionized
 **PONG 2180** is a transcontinental table tennis game that friends can play no matter how far away they are from one another. It's perfect for kids and teens, friends trying to keep in touch, and hardcore game enthusiasts.
 
-***pic here of login, UI, etc.***
-<img align="right" src="client/public/images/IMAGE.png?raw=true">
+<img align="right" src="client/public/images/pong8.png?raw=true">
+
+
 
 ## Here's How It Works
 It’s simple. Player A will log into the app, confirm their location through **GPS and the Google Maps API**. They’ll choose a challenger by entering their username. Player B will confirm their GPS location and accept the challenge. Player A will serve the virtual ping pong ball, and even enter in “trash talk” if they choose. Meanwhile, Player B will receive a message that the ball is headed their way and when it will arrive. After the initial serve, players have the option to **manipulate the ball with the app’s built in speed-up factor**. Both players will see the ball passing across their screen in real-time and the countdown timer of when it will arrive. 
@@ -34,8 +35,6 @@ Databases are also used through **Firebase and MySQL**. Information for the ball
 ## What's In Store For The Future?
 Future updates to the game would include **upgrading the accelerometer on players’ phones**, which would allow a phone to act as the paddle itself. Additional plans include added functionality to the Google Map feature to **see the ping pong ball moving in 3D with Unity**. Unity would read Firebase data and plot the path of the ball.
 
-***some sort of pic here, but not sure what yet***
-<img align="right" src="client/public/images/IMAGE.png?raw=true">
 
 There are also plans to **expand the choices of emoji**, introduce **special paddles with extra-powers**, and improve the speed-up factor to **show a new time of arrival**.
 
@@ -62,7 +61,7 @@ And, of course, play the game yourself and see it in action [here].
 
 [wireframes]:https://github.com/ryandwalters/pong-2180/tree/master/client/public/wireframes
 
-[here]:
+[here]:https://pong-2180.herokuapp.com/
 
 
 

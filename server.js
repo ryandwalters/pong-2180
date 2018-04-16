@@ -21,7 +21,7 @@ app.use(express.static("client/build"));
 mongoose.Promise = global.Promise;
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/nytMernStackApp",
+  process.env.MONGODB_URI || "mongodb://localhost/",
   
 );
 */
@@ -56,7 +56,6 @@ app.get('/login', function(req, res) {
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
 }
-
 // If no API routes are hit, send the React app
 /*router.use(function (req, res) {
   res.sendFile(path.join(__dirname, "../client/build/index.html"));
