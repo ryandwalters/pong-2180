@@ -1,4 +1,4 @@
-<img align="center" src="client/public/images/IMAGE.png?raw=true">
+<img src="client/public/images/pong6.png?raw=true">
 
 ## Table Tennis Is Being Revolutionized
 **PONG 2180** is a transcontinental table tennis game that friends can play no matter how far away they are from one another. It's perfect for kids and teens, friends trying to keep in touch, and hardcore game enthusiasts.
