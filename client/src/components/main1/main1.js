@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Main1.css';
+import './main1.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BallStatsContainer from './../ballStats';
 import MapComponent from './../mapPage/';
@@ -37,4 +37,4 @@ const Main1 = () => {
     )
 }
 
-export default Main1;
+export default main1;
