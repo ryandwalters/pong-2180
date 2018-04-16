@@ -17,12 +17,12 @@ A successful return will be registered when the **HIT button** is pressed two se
 ## Let's Hear About The Features
 A multitude of technologies were used for this application, which are all run through two separate programs—-**the physics engine and the screen engine**. The physics engine utilizes X, Y, Z coordinates to determine the players’ longitude and latitude, the trajectory of the ping pong ball and controlling the ball’s speed-up factor. 
 
-Additionally, the game uses the [haversine formula] and [kinematic equations] when taking into account Earth's circumference, longitude, latitude and azimuth, as well as the ball's acceleration and velocity.
-
 <img height="300px" align="left" src="client/public/images/physics-engine copy.png?raw=true">
 
 <img height="300px" align="right" src="client/public/images/connection-rundown.png?raw=true">
-<br>
+
+Additionally, the game uses the [haversine formula] and [kinematic equations] when taking into account Earth's circumference, longitude, latitude and azimuth, as well as the ball's acceleration and velocity.
+
 <br>
 
 ## We're All About That Base--Database, That Is!
