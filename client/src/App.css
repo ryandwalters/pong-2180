@@ -10,8 +10,13 @@ hr{
   opacity:0;
 }
 
+button {
+  padding: 0;
+}
+
 .jumbotron {
   border: 2px solid white;
+  margin: 0;
 }
 
 .bungeeFont {

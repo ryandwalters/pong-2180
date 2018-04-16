@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+}
+
+input[type=checkbox]{
+    margin: 10px;
+}
+
+.img-thumbnail {
+    max-width: 40%;
+}
