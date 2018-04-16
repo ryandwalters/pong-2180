@@ -42,8 +42,11 @@ See wireframes from early stages of the project here.
 
 ## Collaborators
 Rich Budek
+
 Troy Moling
+
 David Scherer-Odell
+
 Ryan Walters
 
 
