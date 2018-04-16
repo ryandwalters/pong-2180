@@ -3,8 +3,7 @@
 ## Table Tennis Is Being Revolutionized
 **PONG 2180** is a transcontinental table tennis game that friends can play no matter how far away they are from one another. It's perfect for kids and teens, friends trying to keep in touch, and hardcore game enthusiasts.
 
-***pic here of login, UI, etc.***
-<img align="right" src="client/public/images/IMAGE.png?raw=true">
+<img align="right" src="client/public/images/pong8.png?raw=true">
 
 ## Here's How It Works
 It’s simple. Player A will log into the app, confirm their location through **GPS and the Google Maps API**. They’ll choose a challenger by entering their username. Player B will confirm their GPS location and accept the challenge. Player A will serve the virtual ping pong ball, and even enter in “trash talk” if they choose. Meanwhile, Player B will receive a message that the ball is headed their way and when it will arrive. After the initial serve, players have the option to **manipulate the ball with the app’s built in speed-up factor**. Both players will see the ball passing across their screen in real-time and the countdown timer of when it will arrive. 
