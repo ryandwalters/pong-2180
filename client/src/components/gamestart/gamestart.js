@@ -13,7 +13,7 @@ const Gamestart = () => {
                     {/*Player 1 Form*/}
                     <form id='player1' className="navbar-form navbar-left" role="search">
                         <div className="form-group">
-                            <label htmlFor='player1'>Adress Player 1</label>
+                            <label htmlFor='player1'>Player 1 Address</label>
                             <input type="address" className="form-control" placeholder="Your Location"/>
                         </div>
                     </form>
@@ -24,7 +24,7 @@ const Gamestart = () => {
                     {/*Player 2 Form*/}
                     <form id='player2' className="navbar-form navbar-left" role="search">
                         <div className="form-group">
-                            <label htmlFor='player2'>Adress Player 2</label>
+                            <label htmlFor='player2'>Player 2 Address</label>
                             <input type="address" className="form-control" placeholder="Your Location"/>
                         </div>
                     </form>
@@ -33,7 +33,7 @@ const Gamestart = () => {
             {/*Choose Ball Panel*/}
             <div className='row panel'>
                 <div className='panel-title'>
-                    <h2 className='bungeeFont'>Choose Your Ball!</h2>
+                    <h2 className='bungeeFont'>Click the Box to Choose Your Ball!</h2>
                 </div>
                 <div className='panel-body'>
                     <ul className='bungeeFont'>
@@ -83,7 +83,7 @@ const Gamestart = () => {
                             <img className='img img-thumbnail' src={require='./../images/huggingfaceemoji.png'}/>
                         </li>
                         <li>
-                            <label htmlFor='checkbox'>Monocle</label>
+                            <label htmlFor='checkbox'>Monocle Emoji</label>
                             <input type='checkbox' id='monocle'/>
                             <img className='img img-thumbnail' src={require='./../images/monocleemoji.png'}/>
                         </li>
