@@ -33,7 +33,7 @@ const Gamestart = () => {
             {/*Choose Ball Panel*/}
             <div className='row panel'>
                 <div className='panel-title'>
-                    <h2 className='bungeeFont'>Choose Your Ball!</h2>
+                    <h2 className='bungeeFont'>Click the Box to Choose Your Ball!</h2>
                 </div>
                 <div className='panel-body'>
                     <ul className='bungeeFont'>
