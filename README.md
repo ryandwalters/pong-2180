@@ -22,7 +22,7 @@ Additionally, the game uses the [haversine formula] and [kinematic equations] wh
 <img height="300px" align="left" src="client/public/images/physics-engine copy.png?raw=true">
 
 <img height="300px" align="right" src="client/public/images/connection-rundown.png?raw=true">
-
+<br>
 <br>
 
 ## We're All About That Base--Database, That Is!
