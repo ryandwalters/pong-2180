@@ -39,12 +39,12 @@ const Gamestart = () => {
                 <div className='panel-body'>
                     <ul className='bungeeFont'>
                         <li>
-                            <label for='checkbox'>Bowling Ball</label>
+                            <label htmlFor='checkbox'>Bowling Ball</label>
                             <input type='checkbox' id='bowlingball'/>
                             <img className='img img-thumbnail' src={require='./../images/bowlingball.png'}/>
                         </li>
                         <li>
-                            <label for='checkbox'>Baseball</label>
+                            <label htmlFor='checkbox'>Baseball</label>
                             <input type='checkbox' id='baseball'/>
                             <img className='img img-thumbnail' src={require='./../images/baseball.png'}/>
                         </li>
@@ -54,7 +54,7 @@ const Gamestart = () => {
                             <img className='img img-thumbnail' src={require='./../images/basketball.png'}/>
                         </li>
                         <li>
-                            <label for='checkbox'>Crying Emoji</label>
+                            <label htmlFor='checkbox'>Crying Emoji</label>
                             <input type='checkbox' id='cryingemoji'/>
                             <img className='img img-thumbnail' src={require='./../images/cryingemoji.png'}/>
                         </li>
@@ -64,12 +64,12 @@ const Gamestart = () => {
                             <img className='img img-thumbnail' src={require='./../images/disappointedemoji.png'}/>
                         </li>
                         <li>
-                            <label for='checkbox'>Dizzy Emoji</label>
+                            <label htmlFor='checkbox'>Dizzy Emoji</label>
                             <input type='checkbox' id='dizzyemoji'/>
                             <img className='img img-thumbnail' src={require='./../images/dizzyemoji.png'}/>
                         </li>
                         <li>
-                            <label for='checkbox'>Fireball</label>
+                            <label htmlFor='checkbox'>Fireball</label>
                             <input type='checkbox' id='fireball'/>
                             <img className='img img-thumbnail' src={require='./../images/fireball.png'}/>
                         </li>
@@ -79,7 +79,7 @@ const Gamestart = () => {
                             <img className='img img-thumbnail' src={require='./../images/heart.png'}/>
                         </li>
                         <li>
-                            <label for='checkbox'>Huggin Emoji</label>
+                            <label htmlFor='checkbox'>Huggin Emoji</label>
                             <input type='checkbox' id='huggingemoji'/>
                             <img className='img img-thumbnail' src={require='./../images/huggingfaceemoji.png'}/>
                         </li>
@@ -89,7 +89,7 @@ const Gamestart = () => {
                             <img className='img img-thumbnail' src={require='./../images/monocleemoji.png'}/>
                         </li>
                         <li>
-                            <label for='checkbox'>Nerd Emoji</label>
+                            <label htmlFor='checkbox'>Nerd Emoji</label>
                             <input type='checkbox' id='nerdemoji'/>
                             <img className='img img-thumbnail' src={require='./../images/nerdemoji.png'}/>
                         </li>
@@ -99,7 +99,7 @@ const Gamestart = () => {
                             <img className='img img-thumbnail' src={require='./../images/pooemoji.png'}/>
                         </li>
                         <li>
-                            <label for='checkbox'>Surprised Emoji</label>
+                            <label htmlFor='checkbox'>Surprised Emoji</label>
                             <input type='checkbox' id='surprisedemoji'/>
                             <img className='img img-thumbnail' src={require='./../images/surprisedemoji.png'}/>
                         </li>
@@ -109,7 +109,7 @@ const Gamestart = () => {
                             <img className='img img-thumbnail' src={require='./../images/thinkingfaceemoji.png'}/>
                         </li>
                         <li>
-                            <label for='checkbox'>Vomit Emoji</label>
+                            <label htmlFor='checkbox'>Vomit Emoji</label>
                             <input type='checkbox' id='vomitemoji'/>
                             <img className='img img-thumbnail' src={require='./../images/vomitemoji.png'}/>
                         </li>
@@ -119,7 +119,7 @@ const Gamestart = () => {
                             <img className='img img-thumbnail' src={require='./../images/wackyemoji.png'}/>
                         </li>
                         <li>
-                            <label for='checkbox'>YinYang</label>
+                            <label htmlFor='checkbox'>YinYang</label>
                             <input type='checkbox' id='yinyang'/>
                             <img className='img img-thumbnail' src={require='./../images/yinyang.png'}/>
                         </li>
