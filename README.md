@@ -33,8 +33,6 @@ Databases are also used through **Firebase and MySQL**. Information for the ball
 ## What's In Store For The Future?
 Future updates to the game would include **upgrading the accelerometer on players’ phones**, which would allow a phone to act as the paddle itself. Additional plans include added functionality to the Google Map feature to **see the ping pong ball moving in 3D with Unity**. Unity would read Firebase data and plot the path of the ball.
 
-***some sort of pic here, but not sure what yet***
-<img align="right" src="client/public/images/IMAGE.png?raw=true">
 
 There are also plans to **expand the choices of emoji**, introduce **special paddles with extra-powers**, and improve the speed-up factor to **show a new time of arrival**.
 
