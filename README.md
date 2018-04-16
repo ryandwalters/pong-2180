@@ -41,11 +41,10 @@ Check out our pong presentation at <<<link>>>.
 See wireframes from early stages of the project here.
 
 ## Collaborators
-* Bullet list
-Rich Budek
-Troy Moling
-David Scherer-Odell
-Ryan Walters
+* Rich Budek
+* Troy Moling
+* David Scherer-Odell
+* Ryan Walters
 
 
 
