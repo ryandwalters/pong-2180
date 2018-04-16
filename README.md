@@ -21,7 +21,7 @@ Additionally, the game uses the [haversine formula] and [kinematic equations] wh
 
 <img height="300px" align="middle" src="client/public/images/physics-engine copy.png?raw=true">
 
-<img height="300px" align="middle" src="client/public/images/connection-rundown.png?raw=true">
+<img height="300px" align="right" src="client/public/images/connection-rundown.png?raw=true">
 
 ## We're All About That Base--Database, That Is!
 Databases are also used through **Firebase and MySQL**. Information for the ball’s speed and position is stored inside Firebase, and an event listener triggers a notification when the ball is hit. SQL stores all the ball hits (time of hit and distance to travel) along with storing the players’ name and location.
