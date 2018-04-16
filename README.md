@@ -38,7 +38,10 @@ There are also plans to let people **choose their own emoji**, introducing **spe
 Email us at pong2180@gmail.com and let us hear from you. You can learn more about the design process, challenge us to a game, or hear the story of how a mis-typed email address determined the **PONG 2180** name.
 
 Check out our pong presentation at this [link].
+<br>
 See [wireframes] from early stages of the project too.
+<br>
+And, of course, play the game yourself and see it in action [here].
 
 ## Collaborators
 * Rich Budek
@@ -53,6 +56,8 @@ See [wireframes] from early stages of the project too.
 [wireframes]:
 
 [link]:
+
+[here]:
 
 
 
