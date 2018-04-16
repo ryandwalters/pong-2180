@@ -37,7 +37,7 @@ Future updates to the game would include **upgrading the accelerometer on player
 ***some sort of pic here, but not sure what yet***
 <img align="right" src="client/public/images/IMAGE.png?raw=true">
 
-There are also plans to let people **choose their own emoji**, introducing **special paddles with extra-powers**, and improvements to the speed-up factor to **show a new time of arrival**.
+There are also plans to let people **choose their own emoji**, introduce **special paddles with extra-powers**, and improve the speed-up factor to **show a new time of arrival**.
 
 ## Get In Touch
 Email us at pong2180@gmail.com and let us hear from you. You can learn more about the design process, challenge us to a game, or hear the story of how a mis-typed email address determined the **PONG 2180** name.
