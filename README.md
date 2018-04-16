@@ -21,9 +21,10 @@ A multitude of technologies were used for this application, which are all run th
 
 <img height="300px" align="right" src="client/public/images/connection-rundown.png?raw=true">
 
+<br>
+
 Additionally, the game uses the [haversine formula] and [kinematic equations] when taking into account Earth's circumference, longitude, latitude and azimuth, as well as the ball's acceleration and velocity.
 
-<br>
 
 ## We're All About That Base--Database, That Is!
 Databases are also used through **Firebase and MySQL**. Information for the ball’s speed and position is stored inside Firebase, and an event listener triggers a notification when the ball is hit. SQL stores all the ball hits (time of hit and distance to travel) along with storing the players’ name and location.
