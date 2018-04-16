@@ -1,5 +1,5 @@
 import TitlePage from './../titlePage/';
-import Main1 from './../Main1/';
+import Main1 from './../main1/';
 import LoginPage from './../loginPage/';
 import Gamestart from './../gamestart/';
 import Header from './../header/';
