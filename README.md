@@ -19,6 +19,8 @@ A multitude of technologies were used for this application, which are all run th
 
 Additionally, the game uses the [haversine formula] and [kinematic equations] when taking into account Earth's circumference, longitude, latitude and azimuth, as well as the ball's acceleration and velocity.
 
+<img height="525px" align="middle" src="client/public/images/physics-engine.png?raw=true">
+
 <img height="525px" align="middle" src="client/public/images/connection-rundown.png?raw=true">
 
 ## We're All About That Base--Database, That Is!
@@ -54,9 +56,9 @@ And, of course, play the game yourself and see it in action [here].
 
 [kinematic equations]:https://en.wikipedia.org/wiki/Kinematics_equations
 
-[wireframes]:
+[link]:https://docs.google.com/presentation/d/1cnIxrhe-o-XBPAQjk8mcZDEyiIK_g86yqckuEgQ19sY/edit?usp=sharing
 
-[link]:
+[wireframes]:
 
 [here]:
 
