@@ -9,8 +9,7 @@
 ## Here's How It Works
 It’s simple. Player A will log into the app, confirm their location through **GPS and the Google Maps API**. They’ll choose a challenger by entering their username. Player B will confirm their GPS location and accept the challenge. Player A will serve the virtual ping pong ball, and even enter in “trash talk” if they choose. Meanwhile, Player B will receive a message that the ball is headed their way and when it will arrive. After the initial serve, players have the option to **manipulate the ball with the app’s built in speed-up factor**. Both players will see the ball passing across their screen in real-time and the countdown timer of when it will arrive. 
 
-***pic or gif of map--aligned to the right***
-<img align="right" src="client/public/images/IMAGE.png?raw=true">
+<img height="300px" align="left" src="client/public/images/map.png?raw=true">
 
 A successful return will be registered when the **HIT button** is pressed two seconds before or two seconds after the determined time. The circumference, weight and velocity of a typical ping pong ball has been calculated to make this experience identical to the real thing. As the clock counts down, get ready to hit the ball back because it will be coming at 70 mph. **The first player to score 10 points wins the game**.
 
@@ -29,7 +28,7 @@ Additionally, the game uses the [haversine formula] and [kinematic equations] wh
 ## We're All About That Base--Database, That Is!
 Databases are also used through **Firebase and MySQL**. Information for the ball’s speed and position is stored inside Firebase, and an event listener triggers a notification when the ball is hit. SQL stores all the ball hits (time of hit and distance to travel) along with storing the players’ name and location.
 
-<img height="500px" align="center" src="client/public/images/database-structure.png?raw=true">
+<img height="450px" align="center" src="client/public/images/database-structure.png?raw=true">
 
 
 ## What's In Store For The Future?
@@ -38,7 +37,7 @@ Future updates to the game would include **upgrading the accelerometer on player
 ***some sort of pic here, but not sure what yet***
 <img align="right" src="client/public/images/IMAGE.png?raw=true">
 
-There are also plans to let people **choose their own emoji**, introducing **special paddles with extra-powers**, and improvements to the speed-up factor to **show a new time of arrival**.
+There are also plans to **expand the choices of emoji**, introduce **special paddles with extra-powers**, and improve the speed-up factor to **show a new time of arrival**.
 
 ## Get In Touch
 Email us at pong2180@gmail.com and let us hear from you. You can learn more about the design process, challenge us to a game, or hear the story of how a mis-typed email address determined the **PONG 2180** name.
