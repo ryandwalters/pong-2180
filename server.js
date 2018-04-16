@@ -41,7 +41,17 @@ db.once("open", function () {
 });
 
 */
+app.get('/', function(req, res) {
 
+})
+
+app.get('/main1', function(req, res) {
+  
+})
+
+app.get('/login', function(req, res) {
+  
+})
 
 //if running on a deployed site use the build folder
 if (process.env.NODE_ENV === 'production') {
