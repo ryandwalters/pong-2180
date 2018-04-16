@@ -9,7 +9,7 @@
 ## Here's How It Works
 It’s simple. Player A will log into the app, confirm their location through **GPS and the Google Maps API**. They’ll choose a challenger by entering their username. Player B will confirm their GPS location and accept the challenge. Player A will serve the virtual ping pong ball, and even enter in “trash talk” if they choose. Meanwhile, Player B will receive a message that the ball is headed their way and when it will arrive. After the initial serve, players have the option to **manipulate the ball with the app’s built in speed-up factor**. Both players will see the ball passing across their screen in real-time and the countdown timer of when it will arrive. 
 
-<img align="right" src="client/public/images/map.png?raw=true">
+<img height="300px" align="right" src="client/public/images/map.png?raw=true">
 
 A successful return will be registered when the **HIT button** is pressed two seconds before or two seconds after the determined time. The circumference, weight and velocity of a typical ping pong ball has been calculated to make this experience identical to the real thing. As the clock counts down, get ready to hit the ball back because it will be coming at 70 mph. **The first player to score 10 points wins the game**.
 
