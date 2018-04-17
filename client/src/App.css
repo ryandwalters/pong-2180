@@ -14,12 +14,13 @@ button {
   padding: 0;
 }
 
-Link:hover {
+a:hover {
   text-decoration: none;
 }
 
-Link {
+a {
   color: inherit;
+  text-decoration: none;
 }
 
 .jumbotron {
