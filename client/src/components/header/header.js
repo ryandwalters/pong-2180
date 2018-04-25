@@ -10,7 +10,7 @@ const Header = () => {
                         <Link to='/'><h2 className='bungeeFont'>PONG 2180</h2></Link>
                     </div>
                     <div className='col-xs-3'>              
-                        <Link to="/gamestart">
+                        <Link to="/login">
                             <h3 className='bungeeFont'>Login</h3>
                         </Link>                
                     </div>
