@@ -1,30 +1,24 @@
+//
+//
 const express = require("express");
 const bodyParser = require("body-parser");
-//const mongoose = require("mongoose");
-//const articleController = require("./controllers/articleController");
+//const routes = require("./routes");
 const app = express();
-require('dotenv').config();
+const morgan = require('morgan');
+
+//require('dotenv').config();
 const PORT = process.env.PORT || 3001;
 
 // Configure body parser for AJAX requests
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 // Serve up static assets
-app.use(express.static("client/build"));
+//app.use(express.static("client/build"));
+
 // Add routes, both API and view
 
 //app.use(articleController);
 
-//var MONGODB_URI = 'DB_PASS';
-// Set up promises with mongoose
-/*
-mongoose.Promise = global.Promise;
-// Connect to the Mongo DB
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/",
-  
-);
-*/
 
 /*
 var db = mongoose.connection;
@@ -40,15 +34,24 @@ db.once("open", function () {
 });
 
 */
-app.get('/', function(req, res) {
+
+app.post('/login', (req, res) => {
+  //trying to log in
+  console.log('hit login post');
+  res, send({
+    code: 204
+  });
+})
+
+app.get('/', function (req, res) {
   res.json(JSON.parse(response.body));
 })
 
-app.get('/main1', function(req, res) {
+app.get('/main1', function (req, res) {
   res.json(JSON.parse(response.body));
 })
 
-app.get('/login', function(req, res) {
+app.get('/login', function (req, res) {
   res.json(JSON.parse(response.body));
 })
 
@@ -62,6 +65,6 @@ if (process.env.NODE_ENV === 'production') {
 });*/
 
 // Start the API server
-app.listen(PORT, function() {
+app.listen(PORT, function () {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });

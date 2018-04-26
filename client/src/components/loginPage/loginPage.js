@@ -1,21 +1,28 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React, { Component } from "react";
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import RaisedButton from 'material-ui/RaisedButton';
+import LoginComp from './../loginComp';
+
 import './loginPage.css';
 
 
 const LoginPage = () => {
     return (
         <div>
-            <div className='row' style={{padding: '5px 5px 5px 5px', margin: '5px 5px 5px 5px'}}  >
+            <div className='row'>
+            <LoginComp />
+            </div>
+            {/* <div className='row' style={{padding: '5px 5px 5px 5px', margin: '5px 5px 5px 5px'}}  >
                 <br />
                 <form className="navbar-form navbar-left" role="search">
                     <div className="form-group">
-                        <input type="text" className="form-control" placeholder="Login password" />
+                        <input type="text" className="form-control" placeholder="Login " />
                     </div>
                     <button type="submit" className="btn btn-default">Submit</button>
                 </form>
 
-            </div>
+            </div> */}
             <div className='row'>
             <br />
             <br />

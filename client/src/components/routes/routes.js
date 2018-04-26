@@ -19,7 +19,7 @@ const Routes = () => {
                 <Route path='/main1' component={Main1}/>
                 <Route path='/login' component={LoginPage}/>
                 <Route exact path='/gamestart' render={() => <Gamestart/>}/>
-                {/*<Gamestart/>*/}
+                <Gamestart/>
                 </Switch>
             </main>
             </div>
