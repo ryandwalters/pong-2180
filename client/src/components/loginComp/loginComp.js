@@ -15,7 +15,13 @@ class LoginComp extends Component {
     }
     handleClick = (event) => {
         event.preventDefault();
-        let apiBaseUrl = "http://localhost:3001/";
+        let apiBaseUrl;
+        if (process.env.NODE_ENV === 'production') {
+            apiBaseUrl = "";    
+          } else {
+            apiBaseUrl = "http://localhost:3001/";
+          };
+                  
         let payload = {
             "username": this.state.username,
             "password": this.state.password
