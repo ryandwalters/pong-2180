@@ -8,28 +8,6 @@ const Gamestart = () => {
         <div className='text-center'>
             <hr />
             <hr />
-            <div className='row'>
-                <div className='col-xs-12'>
-                    {/*Player 1 Form*/}
-                    <form id='player1' className="navbar-form navbar-left" role="search">
-                        <div className="form-group">
-                            <label htmlFor='player1'>Player 1 Address</label>
-                            <input type="address" className="form-control" placeholder="Your Location" />
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div className='row'>
-                <div className='col-xs-12'>
-                    {/*Player 2 Form*/}
-                    <form id='player2' className="navbar-form navbar-left" role="search">
-                        <div className="form-group">
-                            <label htmlFor='player2'>Player 2 Address</label>
-                            <input type="address" className="form-control" placeholder="Your Location" />
-                        </div>
-                    </form>
-                </div>
-            </div>
             {/*Choose Ball Panel*/}
             <div className='row panel'>
                 <div className='panel-title'>
@@ -135,13 +113,13 @@ const Gamestart = () => {
             <div className='row'>
                 {/*Start Game Button*/}
                 <button className='btn'>
-                    <h2 className='jumbotron rainbow monotonFont'><a href='https://pong2180-physics.herokuapp.com/users/mobile/1'>Demo User 1</a></h2>
+                    <h2 className='jumbotron rainbow monotonFont'><a href='https://pong2180-physics.herokuapp.com/users/mobile/1/0'>Demo User 1</a></h2>
                 </button>
             </div>
             <div className='row'>
                 {/*Start Game Button*/}
                 <button className='btn'>
-                    <h2 className='jumbotron rainbow monotonFont'><a href='https://pong2180-physics.herokuapp.com/users/mobile/2'>Demo User 2</a></h2>
+                    <h2 className='jumbotron rainbow monotonFont'><a href='https://pong2180-physics.herokuapp.com/users/mobile/2/0'>Demo User 2</a></h2>
                 </button>
             </div>
             <div className='row'>

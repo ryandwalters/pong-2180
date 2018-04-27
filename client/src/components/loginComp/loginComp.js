@@ -1,10 +1,4 @@
 import React, { Component } from 'react';
-import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import AppBar from 'material-ui/AppBar';
-import RaisedButton from 'material-ui/RaisedButton';
-import TextField from 'material-ui/TextField';
 import axios from 'axios';
 
 class LoginComp extends Component {
@@ -17,7 +11,8 @@ class LoginComp extends Component {
     }
     handleClick = (event) => {
         var apiBaseUrl = "http://localhost:3001/";
-        var self = this;
+        console.log("user name = " + this.state.username);
+        console.log("password = " + this.state.password);
         var payload = {
             "email": this.state.username,
             "password": this.state.password
@@ -25,19 +20,19 @@ class LoginComp extends Component {
         axios.post(apiBaseUrl + 'login', payload)
             .then(function (response) {
                 console.log(response);
-                if (response.data.code == 200) {
+                if (response.data.code === 200) {
                     console.log("Login successfull");
                     // var uploadScreen = [];
                     // uploadScreen.push(<UploadScreen appContext={self.props.appContext} />)
                     // self.props.appContext.setState({ loginPage: [], uploadScreen: uploadScreen })
                 }
-                else if (response.data.code == 204) {
-                    console.log("Username password do not match");
-                    alert("username password do not match")
+                else if (response.data.errCode === 100) {
+                    console.log("Blank user name");
+                    alert("User name is blank")
                 }
-                else {
-                    console.log("Username does not exists");
-                    alert("Username does not exist");
+                else if (response.data.code === 105) {
+                    console.log("password is blank");
+                    alert("Password is blank");
                 }
             })
             .catch(function (error) {
@@ -47,31 +42,30 @@ class LoginComp extends Component {
     render() {
         return (
             <div style={{ padding: '5px 5px 5px 10px' }}>
-                <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)} >
-                    <div>
-                        <TextField
-                            hintText="Enter your Username"
-                            floatingLabelText="Username"
-                            onChange={(event, newValue) => this.setState({ username: newValue })}
-                        />
-                        <br />
-                        <TextField
-                            type="password"
-                            hintText="Enter your Password"
-                            floatingLabelText="Password"
-                            onChange={(event, newValue) => this.setState({ password: newValue })}
-                        />
-                        <br />
-                        <RaisedButton label="Login" primary={true} style={style} onClick={(event) => this.handleClick(event)} />
-                    </div>
-                </MuiThemeProvider>
+                <div className='row' style={{ padding: '5px 5px 5px 5px', margin: '5px 5px 5px 5px' }}  >
+                    <br />
+                    <form role="search">
+                        <div className="row">
+                            <div className="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                                <input type="text" className="form-control input_field" placeholder="user name" onChange={(event) => this.setState({ username: event.target.value })} />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                                <input type="password" className="form-control input_field" placeholder="password" onChange={(event) => this.setState({ password: event.target.value })} />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-6 col-xs-6">
+                                <button type="submit" className="btn btn-default" onClick={(event) => this.handleClick(event)}  >Login Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         );
-    }
+    };
 }
 
-const style = {
-    margin: 15,
-};
 
 export default LoginComp;

@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="container">
             <div className="text-center navbar navbar-fixed-bottom">
                 <div className="container-fluid">
-                    <span className="bungeeFont">© 2018 Copyright</span>
+                    <span className="bungeeFont">© 2180 Copyright</span>
                 </div>
             </div>
         </footer>
