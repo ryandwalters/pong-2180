@@ -1,39 +1,54 @@
+//
+//
 import React, { Component } from 'react';
-import axios from 'axios';
+import { withRouter } from 'react-router';
+
 
 class LoginComp extends Component {
     constructor(props) {
         super(props);
         this.state = {
             username: '',
-            password: ''
+            password: '',
+            errorMessage: ' '  //for login attempts
         }
     }
     handleClick = (event) => {
-        var apiBaseUrl = "http://localhost:3001/";
-        console.log("user name = " + this.state.username);
-        console.log("password = " + this.state.password);
-        var payload = {
-            "email": this.state.username,
+        event.preventDefault();
+        let apiBaseUrl = "http://localhost:3001/";
+        let payload = {
+            "username": this.state.username,
             "password": this.state.password
         }
-        axios.post(apiBaseUrl + 'login', payload)
-            .then(function (response) {
-                console.log(response);
-                if (response.data.code === 200) {
-                    console.log("Login successfull");
-                    // var uploadScreen = [];
-                    // uploadScreen.push(<UploadScreen appContext={self.props.appContext} />)
-                    // self.props.appContext.setState({ loginPage: [], uploadScreen: uploadScreen })
+        let sendJSON;
+        sendJSON = JSON.stringify(payload);
+
+        fetch( apiBaseUrl + 'login', {
+            method: 'post',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+              },
+            body: sendJSON
+        })
+            .then( response =>  { return response.json() } )
+            .then( data => {
+                console.log("code = " + data.errCode);
+                if (data.errCode === 200) {
+                    //password matched for an administrator
+                    this.props.history.push('/physics-engine');
                 }
-                else if (response.data.errCode === 100) {
-                    console.log("Blank user name");
-                    alert("User name is blank")
+                else if (data.errCode === 210) {
+                    //password matched for a user
+                    this.props.history.push('/gamestart');
                 }
-                else if (response.data.code === 105) {
-                    console.log("password is blank");
-                    alert("Password is blank");
-                }
+                else  {
+                    //there is no match in either the admin or user files
+                    //so just put the error message on the screen and stay put
+                    this.setState({ errorMessage: data.errrMsg })
+                };
+
+                return data.errCode;
             })
             .catch(function (error) {
                 console.log(error);
@@ -44,10 +59,11 @@ class LoginComp extends Component {
             <div style={{ padding: '5px 5px 5px 10px' }}>
                 <div className='row' style={{ padding: '5px 5px 5px 5px', margin: '5px 5px 5px 5px' }}  >
                     <br />
+                    <h5> {this.state.errorMessage} </h5>
                     <form role="search">
                         <div className="row">
                             <div className="col-lg-5 col-md-5 col-sm-6 col-xs-12">
-                                <input type="text" className="form-control input_field" placeholder="user name" onChange={(event) => this.setState({ username: event.target.value })} />
+                                <input type="text" className="form-control input_field" placeholder="user name" onChange={(event) => this.setState({ username: event.target.value }) } />
                             </div>
                         </div>
                         <div className="row">
@@ -68,4 +84,4 @@ class LoginComp extends Component {
 }
 
 
-export default LoginComp;
+export default withRouter(LoginComp);

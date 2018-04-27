@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/ryandwalters/pong-2180#readme",
   "dependencies": {
+    "bcrypt": "^2.0.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "crypto": "^1.0.1",
     "dotenv": "^5.0.1",

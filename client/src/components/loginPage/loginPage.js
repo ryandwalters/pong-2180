@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
 import LoginComp from './../loginComp';
+import PhysicsEngine from './../physicsEngine';
+
 
 import './loginPage.css';
 
@@ -13,16 +15,6 @@ const LoginPage = () => {
             <div className='row'>
             <LoginComp />
             </div>
-            {/* <div className='row' style={{padding: '5px 5px 5px 5px', margin: '5px 5px 5px 5px'}}  >
-                <br />
-                <form className="navbar-form navbar-left" role="search">
-                    <div className="form-group">
-                        <input type="text" className="form-control" placeholder="Login " />
-                    </div>
-                    <button type="submit" className="btn btn-default">Submit</button>
-                </form>
-
-            </div> */}
             <div className='row'>
             <br />
             <br />
