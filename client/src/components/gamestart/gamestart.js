@@ -122,6 +122,9 @@ const Gamestart = () => {
                     <h2 className='jumbotron rainbow monotonFont'><a href='https://pong2180-physics.herokuapp.com/users/mobile/2/0'>Demo User 2</a></h2>
                 </button>
             </div>
+            <button className='btn'>
+                    <h2 className='jumbotron rainbow monotonFont'><a href='https://pong2180-physics.herokuapp.com/physics/start_auto_demo'>Start Demo</a></h2>
+            </button>
             <div className='row'>
                 {/*Start Game Button*/}
                 <button className='btn'>

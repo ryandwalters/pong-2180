@@ -43,6 +43,7 @@ const bcrypt = require('bcryptjs');
 const crypto = require('crypto');
 const loginMod = require('./app_server/login-mod.js');
 const auditMod = require('./app_server/auditLog-mod.js');
+const path = require('path');
 
 
 //require('dotenv').config();
@@ -234,7 +235,12 @@ if (process.env.NODE_ENV === 'production') {
 
 // If no API routes are hit, send the React app
 app.get('*', function (req, res) {
+  console.log('generic default route');
+  // console.log( __dirname );
+  // console.log ("joined = ");
+  // console.log( path.join( __dirname, './client/public/index.html')  );
   res.sendFile(path.join(__dirname, './client/public/index.html'));
+  //res.sendFile('client/public/index.html');
 });
 
 // router.use(function (req, res) {

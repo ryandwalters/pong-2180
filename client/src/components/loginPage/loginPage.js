@@ -22,8 +22,12 @@ const LoginPage = () => {
             <div className='row' style={{padding: '5px 5px 5px 5px', margin: '5px 5px 5px 5px'}} >
                 {/*Start Game Button*/}
                 <button className='btn'>
-                    <h2 className='jumbotron rainbow monotonFont'><a href='https://pong2180-physics.herokuapp.com/physics/start_auto_demo'>Start Demo</a></h2>
+                    <h2 className='jumbotron rainbow monotonFont'><a href='https://richbu.github.io/Pong2180_user_demo/demo.html'>View Game</a></h2>
                 </button>
+                <br />
+                {/* <button className='btn'>
+                    <h2 className='jumbotron rainbow monotonFont'><a href='https://pong2180-physics.herokuapp.com/physics/start_auto_demo'>Start Demo</a></h2>
+                </button> */}
             </div>
             <div className='row' style={{padding: '5px 5px 5px 5px', margin: '5px 5px 5px 5px'}} >
                 <br />
